@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,500,800');
+body {
+    margin: 0;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+a:hover {
+    color: #888;
+}
+
+.jumbotron {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cover.jpg");
+    background-size: cover;
+}
+
+.jumbotron * {
+    color: #eee;
+}
+
+.jumbotron h1 {
+    font-weight: 800;
+}
+
+.header {
+    padding: 15px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.menu a {
+    text-transform: uppercase;
+}
+
+@media (max-width: 640px) {
+    .menu a {
+        text-transform: capitalize;
+    }
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: cover;
+}
+
+.bd-footer {
+    font-size: 85%;
+    text-align: left;
+    background-color: #f7f7f7;
+}
+
+.bd-footer-links {
+    padding-left: 0;
+    margin-bottom: 1rem;
+}
+
+.bd-footer-links li {
+    display: inline-block;
+}
+
+.bd-footer-links li+li {
+    margin-left: 1rem;
+}
+
+.bd-footer a {
+    font-weight: 500;
+    color: #495057;
+}
